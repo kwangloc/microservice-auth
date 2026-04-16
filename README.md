@@ -9,10 +9,6 @@
 6. [Environment Variables](#environment-variables)
 7. [API Endpoints](#api-endpoints)
 8. [Data Models](#data-models)
-9. [Running the Service](#running-the-service)
-10. [Testing](#testing)
-11. [Contributing](#contributing)
-12. [License](#license)
 
 ---
 
@@ -208,45 +204,5 @@ const UserSchema = new mongoose.Schema({
 ```
 
 ---
-
-## Running the Service
-To run the User Service in development mode:
-```bash
-npm run dev
-```
-To build and run with Docker:
-```bash
-docker build -t UserService .
-docker run -p 5000:5000 UserService
-```
-
----
-
-## Testing
-Run unit tests using Jest:
-```bash
-npm test
-```
-
----
-
-## Contributing
-Contributions are welcome! Please follow these steps:
-1. Fork the repository.
-2. Create a new branch for your feature.
-3. Submit a pull request with a clear description of your changes.
-
----
-
-## License
-This project is licensed under the MIT License.
-
----
-
-## Contact
-For questions or support, contact:
-- **Name**: Quang Loc Truong
-- **Email**: montserrat400italic@gmail.com
-- **Repository**: https://github.com/kwangloc/user-service-job-system
 
 
